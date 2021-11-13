@@ -1,6 +1,6 @@
 # clox
 
-Lox(well, not really) Interpreter in C++ (under development)
+Lox(well, not really) Interpreter in C++
 
 ## Background
 This is a learning project for [Crafting interpreters](https://craftinginterpreters.com/).
@@ -20,6 +20,10 @@ function gcd(a, b) {
 print gcd(99, 121);
 assert gcd(99, 121) == 11;
 ```
+
+After implementing basic functions for clox, I moved out to a C compiler, [cppc](https://github.com/rapiz1/cppc), which is actually a fork of clox, but with lots of cleaning up and improvement.
+
+The visitor pattern used here can be improved, and it's properly done in cppc.
 
 ## Roadmap
 
